@@ -1,10 +1,9 @@
 body {
-  align-items: center;
-  text-align: center;
+text-align: center;
+color: rgb(154,159,170);
   font-size: 30px;
-  text-shadow: 3px 3px 3px #ababab;
-  background-color: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,0.6148751737022935) 0%, rgba(148,187,233,0.7017099075958508) 100%);
+  background-color: rgb(18,24,38);
+ 
 }
 
 
@@ -56,9 +55,6 @@ body {
   width: 100%;
 
 }
-/*h1,h2,h3,h4,h5,h6{*/
-/*  padding-left: 8px;*/
-/*}*/
 
 
 

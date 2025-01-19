@@ -1,34 +1,54 @@
-
-.menu{
+.menu {
+    align-items: center;
+    text-align: center;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     margin-top: 20px;
 }
-.sectionMenu{
+
+.sectionMenu {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     flex-wrap: wrap;
 }
-li{
+
+li {
     padding: 15px;
 }
-li:hover{
+
+li:hover {
     border-bottom: 1px solid #61dafb;
     transition: 1s ease;
     color: aqua;
     cursor: pointer;
 
 }
-.title {text-align: start;
-    font-family: 'Aclonica';font-size: 22px;
+
+.title {
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-family: 'Aclonica';
+    font-size: 22px;
 }
-.subtitle { text-align: start;
-    font-family: 'Aclonica';font-size: 22px;
+
+.subtitle {
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-family: 'Aclonica';
+    font-size: 22px;
 }
+
 .icon {
+   justify-content: center;
     padding: 15px;
     display: flex;
     font-size: 10px;
 
 }
-h1 h2 {font-size: 30px}
+
+h1 h2 {
+    font-size: 30px
+}

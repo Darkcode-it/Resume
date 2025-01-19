@@ -1,4 +1,4 @@
-import React from 'react';
+import { FaFacebook } from "react-icons/fa6";
 import styles from './Home.css'
 import  data from '../Data.json'
 import {SocialIcon} from "react-social-icons";

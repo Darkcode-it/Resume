@@ -18,10 +18,9 @@
 }
 .singleSkill:hover{
     font-size: 25px;
-    transition: ease 1s;
-    box-shadow: 1px 1px 9px rgba(233,233,235);
-    /*display: block;*/
-    filter:drop-shadow(0 0 10px #fffedf);
+    transition: ease 0.6``s;
+    box-shadow: 1px 1px 1px rgba(233,233,235);
+    filter:drop-shadow(0 0 10px #ffff);
 
 
 
@@ -33,26 +32,44 @@
 
 @media (max-width: 500px) {
 
+
+
+    .menu{
+        display: none;
+    }
+
     .skill{
         display: flex;
-        justify-content:center;
-        margin-top: 10px;
-        font-weight: normal;
-        font-family: 'Courier New', Courier, monospace;
-        flex-wrap: wrap;
-
-        width:100%;
-        height: 100%;
+                flex-wrap: wrap;
+                font-family: Courier New, Courier, monospace;
+                font-weight: 400;
+                height: auto;
+                justify-content: center;
+                width: auto;
     }
+
     .singleSkill{
-        border: 1px solid black;
+        border: 1px solid #000;
         border-radius: 20px;
-        box-shadow:1px 1px 1px #282c34;
+        box-shadow: 1px 1px 1px #282c34;
         margin: 14px;
+        width: 30%;
+    }
+.titleskill{
+    font-size: 14px;
+}
+
+
+
+    .icon{
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 3px;
     }
     .image{
+        height: auto;
+        margin-top: 5px;
         width: 50%;
-        height: 50%;
-        padding: 15px;
     }
 }
