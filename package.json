@@ -1,6 +1,6 @@
 {
-  "homepage": "https://darkcode-it.github.io/test-app",
-  "name": "test-app",
+  "homepage": "https://darkcode-it.github.io/Resume",
+  "name": "Resume",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
